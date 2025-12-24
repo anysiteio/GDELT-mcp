@@ -45,6 +45,21 @@ Add to your Claude Desktop config file:
 **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 **Windows**: `%APPDATA%/Claude/claude_desktop_config.json`
 
+### Option 1: Using npx (Recommended - No Installation Required)
+
+```json
+{
+  "mcpServers": {
+    "gdelt": {
+      "command": "npx",
+      "args": ["-y", "@anysiteio/gdelt-mcp-server"]
+    }
+  }
+}
+```
+
+### Option 2: Local Development
+
 ```json
 {
   "mcpServers": {
